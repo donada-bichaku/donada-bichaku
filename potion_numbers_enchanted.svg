@@ -1,0 +1,141 @@
+<?xml version="1.0" ?>
+<svg width="1000" height="180" viewBox="0 0 1000 180" xmlns="http://www.w3.org/2000/svg">
+	<style>
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-5px); }
+}
+@keyframes pour {
+  0% { transform: translateY(-50px); opacity: 0; }
+  10% { transform: translateY(0px); opacity: 1; }
+  90% { transform: translateY(0px); opacity: 1; }
+  100% { transform: translateY(50px); opacity: 0; }
+}
+@keyframes sparkle {
+  0% { r: 0; opacity: 0; }
+  50% { r: 3; opacity: 1; }
+  100% { r: 0; opacity: 0; }
+}
+.sparkle {
+  fill: #00ff88;
+  animation: sparkle 3s infinite;
+}
+.pourstream {
+  fill: #00ff88;
+  animation: pour 4s infinite;
+}
+</style>
+	<defs>
+		<linearGradient id="bgGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+			<stop offset="0%" style="stop-color:#0f1c2e; stop-opacity:1"/>
+			<stop offset="100%" style="stop-color:#1a2b3c; stop-opacity:1"/>
+		</linearGradient>
+	</defs>
+	<rect width="100%" height="100%" fill="url(#bgGradient)"/>
+	<circle cx="500" cy="0" r="10" class="pourstream"/>
+	<circle cx="100" cy="50" r="0" class="sparkle"/>
+	<circle cx="190" cy="70" r="0" class="sparkle"/>
+	<circle cx="280" cy="50" r="0" class="sparkle"/>
+	<circle cx="370" cy="70" r="0" class="sparkle"/>
+	<circle cx="460" cy="50" r="0" class="sparkle"/>
+	<circle cx="550" cy="70" r="0" class="sparkle"/>
+	<circle cx="640" cy="50" r="0" class="sparkle"/>
+	<circle cx="730" cy="70" r="0" class="sparkle"/>
+	<circle cx="820" cy="50" r="0" class="sparkle"/>
+	<circle cx="910" cy="70" r="0" class="sparkle"/>
+	<g transform="translate(150,100)" opacity="1">
+		<text x="0" y="0" font-family="Courier New" font-size="48" fill="#e63946" text-anchor="middle" dominant-baseline="middle" style="animation: float 4s ease-in-out infinite;">4</text>
+		<circle cx="-8" cy="-12" r="4" fill="white" stroke="#000000" stroke-width="1" opacity="0">
+			<animate attributeName="opacity" values="0;0;1" dur="1s" begin="1.5s" repeatCount="indefinite"/>
+		</circle>
+		<circle cx="-8" cy="-12" r="1.5" fill="black" opacity="0">
+			<animate attributeName="opacity" values="0;0;1" dur="1s" begin="1.5s" repeatCount="indefinite"/>
+		</circle>
+		<circle cx="8" cy="-12" r="4" fill="white" stroke="#000000" stroke-width="1" opacity="0">
+			<animate attributeName="opacity" values="0;0;1" dur="1s" begin="1.5s" repeatCount="indefinite"/>
+		</circle>
+		<circle cx="8" cy="-12" r="1.5" fill="black" opacity="0">
+			<animate attributeName="opacity" values="0;0;1" dur="1s" begin="1.5s" repeatCount="indefinite"/>
+		</circle>
+		<path d="M-6,5 Q0,10 6,5" stroke="#000000" stroke-width="2" fill="none" opacity="0">
+			<animate attributeName="opacity" values="0;0;1" dur="1s" begin="1.5s" repeatCount="indefinite"/>
+			<animate attributeName="d" values="M-6,5 Q0,10 6,5;M-6,5 Q0,0 6,5;M-6,5 Q0,10 6,5" dur="1s" begin="3.0s" repeatCount="indefinite"/>
+		</path>
+	</g>
+	<g transform="translate(300,70)" opacity="1">
+		<text x="0" y="0" font-family="Courier New" font-size="48" fill="#457b9d" text-anchor="middle" dominant-baseline="middle" style="animation: float 4s ease-in-out infinite;">7</text>
+		<circle cx="-8" cy="-12" r="4" fill="white" stroke="#000000" stroke-width="1" opacity="0">
+			<animate attributeName="opacity" values="0;0;1" dur="1s" begin="2.7s" repeatCount="indefinite"/>
+		</circle>
+		<circle cx="-8" cy="-12" r="1.5" fill="black" opacity="0">
+			<animate attributeName="opacity" values="0;0;1" dur="1s" begin="2.7s" repeatCount="indefinite"/>
+		</circle>
+		<circle cx="8" cy="-12" r="4" fill="white" stroke="#000000" stroke-width="1" opacity="0">
+			<animate attributeName="opacity" values="0;0;1" dur="1s" begin="2.7s" repeatCount="indefinite"/>
+		</circle>
+		<circle cx="8" cy="-12" r="1.5" fill="black" opacity="0">
+			<animate attributeName="opacity" values="0;0;1" dur="1s" begin="2.7s" repeatCount="indefinite"/>
+		</circle>
+		<path d="M-6,5 Q0,10 6,5" stroke="#000000" stroke-width="2" fill="none" opacity="0">
+			<animate attributeName="opacity" values="0;0;1" dur="1s" begin="2.7s" repeatCount="indefinite"/>
+			<animate attributeName="d" values="M-6,5 Q0,10 6,5;M-6,5 Q0,0 6,5;M-6,5 Q0,10 6,5" dur="1s" begin="4.2s" repeatCount="indefinite"/>
+		</path>
+	</g>
+	<g transform="translate(450,120)" opacity="1">
+		<text x="0" y="0" font-family="Courier New" font-size="48" fill="#f4a261" text-anchor="middle" dominant-baseline="middle" style="animation: float 4s ease-in-out infinite;">8</text>
+		<circle cx="-8" cy="-12" r="4" fill="white" stroke="#000000" stroke-width="1" opacity="0">
+			<animate attributeName="opacity" values="0;0;1" dur="1s" begin="3.9s" repeatCount="indefinite"/>
+		</circle>
+		<circle cx="-8" cy="-12" r="1.5" fill="black" opacity="0">
+			<animate attributeName="opacity" values="0;0;1" dur="1s" begin="3.9s" repeatCount="indefinite"/>
+		</circle>
+		<circle cx="8" cy="-12" r="4" fill="white" stroke="#000000" stroke-width="1" opacity="0">
+			<animate attributeName="opacity" values="0;0;1" dur="1s" begin="3.9s" repeatCount="indefinite"/>
+		</circle>
+		<circle cx="8" cy="-12" r="1.5" fill="black" opacity="0">
+			<animate attributeName="opacity" values="0;0;1" dur="1s" begin="3.9s" repeatCount="indefinite"/>
+		</circle>
+		<path d="M-6,5 Q0,10 6,5" stroke="#000000" stroke-width="2" fill="none" opacity="0">
+			<animate attributeName="opacity" values="0;0;1" dur="1s" begin="3.9s" repeatCount="indefinite"/>
+			<animate attributeName="d" values="M-6,5 Q0,10 6,5;M-6,5 Q0,0 6,5;M-6,5 Q0,10 6,5" dur="1s" begin="5.4s" repeatCount="indefinite"/>
+		</path>
+	</g>
+	<g transform="translate(600,90)" opacity="1">
+		<text x="0" y="0" font-family="Courier New" font-size="48" fill="#2a9d8f" text-anchor="middle" dominant-baseline="middle" style="animation: float 4s ease-in-out infinite;">3</text>
+		<circle cx="-8" cy="-12" r="4" fill="white" stroke="#000000" stroke-width="1" opacity="0">
+			<animate attributeName="opacity" values="0;0;1" dur="1s" begin="5.1s" repeatCount="indefinite"/>
+		</circle>
+		<circle cx="-8" cy="-12" r="1.5" fill="black" opacity="0">
+			<animate attributeName="opacity" values="0;0;1" dur="1s" begin="5.1s" repeatCount="indefinite"/>
+		</circle>
+		<circle cx="8" cy="-12" r="4" fill="white" stroke="#000000" stroke-width="1" opacity="0">
+			<animate attributeName="opacity" values="0;0;1" dur="1s" begin="5.1s" repeatCount="indefinite"/>
+		</circle>
+		<circle cx="8" cy="-12" r="1.5" fill="black" opacity="0">
+			<animate attributeName="opacity" values="0;0;1" dur="1s" begin="5.1s" repeatCount="indefinite"/>
+		</circle>
+		<path d="M-6,5 Q0,10 6,5" stroke="#000000" stroke-width="2" fill="none" opacity="0">
+			<animate attributeName="opacity" values="0;0;1" dur="1s" begin="5.1s" repeatCount="indefinite"/>
+			<animate attributeName="d" values="M-6,5 Q0,10 6,5;M-6,5 Q0,0 6,5;M-6,5 Q0,10 6,5" dur="1s" begin="6.6s" repeatCount="indefinite"/>
+		</path>
+	</g>
+	<g transform="translate(750,110)" opacity="1">
+		<text x="0" y="0" font-family="Courier New" font-size="48" fill="#ffb703" text-anchor="middle" dominant-baseline="middle" style="animation: float 4s ease-in-out infinite;">5</text>
+		<circle cx="-8" cy="-12" r="4" fill="white" stroke="#000000" stroke-width="1" opacity="0">
+			<animate attributeName="opacity" values="0;0;1" dur="1s" begin="6.3s" repeatCount="indefinite"/>
+		</circle>
+		<circle cx="-8" cy="-12" r="1.5" fill="black" opacity="0">
+			<animate attributeName="opacity" values="0;0;1" dur="1s" begin="6.3s" repeatCount="indefinite"/>
+		</circle>
+		<circle cx="8" cy="-12" r="4" fill="white" stroke="#000000" stroke-width="1" opacity="0">
+			<animate attributeName="opacity" values="0;0;1" dur="1s" begin="6.3s" repeatCount="indefinite"/>
+		</circle>
+		<circle cx="8" cy="-12" r="1.5" fill="black" opacity="0">
+			<animate attributeName="opacity" values="0;0;1" dur="1s" begin="6.3s" repeatCount="indefinite"/>
+		</circle>
+		<path d="M-6,5 Q0,10 6,5" stroke="#000000" stroke-width="2" fill="none" opacity="0">
+			<animate attributeName="opacity" values="0;0;1" dur="1s" begin="6.3s" repeatCount="indefinite"/>
+			<animate attributeName="d" values="M-6,5 Q0,10 6,5;M-6,5 Q0,0 6,5;M-6,5 Q0,10 6,5" dur="1s" begin="7.8s" repeatCount="indefinite"/>
+		</path>
+	</g>
+</svg>
